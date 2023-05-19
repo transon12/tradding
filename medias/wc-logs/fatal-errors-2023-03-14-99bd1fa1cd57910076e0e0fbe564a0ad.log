@@ -1,0 +1,12 @@
+2023-03-14T02:31:55+00:00 CRITICAL Uncaught Error: Call to a member function get_item_link() on bool in /home/cfa/domains/cfa99.net/public/wp-content/plugins/learnpress/inc/class-lp-page-controller.php:136
+Stack trace:
+#0 /home/cfa/domains/cfa99.net/public/wp-includes/class-wp-hook.php(309): LP_Page_Controller->post_type_link()
+#1 /home/cfa/domains/cfa99.net/public/wp-includes/plugin.php(191): WP_Hook->apply_filters()
+#2 /home/cfa/domains/cfa99.net/public/wp-includes/link-template.php(370): apply_filters()
+#3 /home/cfa/domains/cfa99.net/public/wp-includes/link-template.php(201): get_post_permalink()
+#4 /home/cfa/domains/cfa99.net/public/wp-includes/link-template.php(27): get_permalink()
+#5 /home/cfa/domains/cfa99.net/public/wp-content/themes/cfa99/search.php(42): the_permalink()
+#6 /home/cfa/domains/cfa99.net/public/wp-includes/template-loader.php(106): include('/home/cfa/domai...')
+#7 /home/cfa/domains/cfa99.net/public/wp-blog-header.php(19): require_once('/home/cfa/domai...')
+#8 /home/cfa/domains/cfa99.net/public/index.php(17): require('/hom in /home/cfa/domains/cfa99.net/public/wp-content/plugins/learnpress/inc/class-lp-page-controller.php on line 136
+

@@ -1,0 +1,9 @@
+2023-03-13T11:06:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function slicewp_format_amount_custom(), 1 passed in /home/cfa/domains/cfa99.net/public/wp-content/themes/cfa99/slicewp/affiliate-area/affiliate-account-tab-dashboard.php on line 147 and at least 2 expected in /home/cfa/domains/cfa99.net/public/wp-content/themes/cfa99/inc/init.php:1342
+Stack trace:
+#0 /home/cfa/domains/cfa99.net/public/wp-content/themes/cfa99/slicewp/affiliate-area/affiliate-account-tab-dashboard.php(147): slicewp_format_amount_custom()
+#1 /home/cfa/domains/cfa99.net/public/wp-includes/template.php(772): require('/home/cfa/domai...')
+#2 /home/cfa/domains/cfa99.net/public/wp-content/plugins/slicewp/includes/base/functions.php(330): load_template()
+#3 /home/cfa/domains/cfa99.net/public/wp-content/plugins/slicewp/templates/affiliate-area/affiliate-account.php(96): slicewp_get_template_part()
+#4 /home/cfa/domains/cfa99.net/public/wp-includes/template.php(772): require('/home/cfa/domai...')
+#5 /home/cfa/domains/cfa99.net/public/wp-content/plugins/s in /home/cfa/domains/cfa99.net/public/wp-content/themes/cfa99/inc/init.php on line 1342
+
