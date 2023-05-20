@@ -853,7 +853,7 @@ class wpdb {
 		}
 
 		// _unicode_520_ is a better collation, we should use that when it's available.
-		if ( $this->has_cap( 'utf8mb4_520' ) && 'utf8mb4_unicode_ci' === $collate ) {
+		if ( $this->has_cap( 'utf8mb4_520' ) && 'utf8_unicode_ci' === $collate ) {
 			$collate = 'utf8mb4_unicode_520_ci';
 		}
 
