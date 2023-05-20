@@ -1,1 +1,0 @@
-{"request":{"hurl":"https:\/\/localhost\/tradding\/wp-content\/themes\/flatsome\/trading.js","inline":"","enable_minification":true,"type":"js","handle":"trading_script","version":false},"log":{"url":"\/wp-content\/themes\/flatsome\/trading.js","success":true},"code":"function test(){console.log('test')};\n","status":true}
